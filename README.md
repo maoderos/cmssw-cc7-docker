@@ -1,5 +1,6 @@
 # cmssw-cc7-docker
 
+
 CERN CentOS7 (cc7) docker container with pre-requisites for running cmssw.
 
 ## Instructions 
@@ -12,7 +13,7 @@ CERN CentOS7 (cc7) docker container with pre-requisites for running cmssw.
 
 1. Get the repository:
 		
-		`$ git clone `
+		`$ git clone https://github.com/maoderos/cmssw-cc7-docker.git`
 
 2. Enter and type:
 
@@ -21,6 +22,8 @@ CERN CentOS7 (cc7) docker container with pre-requisites for running cmssw.
 		`$ ./cmssw_docker.sh `
 	
 By default, it will pull the `marcosderos/cmssw-docker`, but if you want other image you can add by using the tag `--image <image>`. Once you entered at the container, you can use the [script for stalling cmssw](https://github.com/maoderos/cmssw-install.git).
+
+It is recommended to create an alias command in you bashrc file to re-enter in the docker container easily.
 
 
 
